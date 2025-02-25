@@ -191,7 +191,7 @@
       ],
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Standard_A0"
+          "vmSize": "Standard_B1s"
         },
         "osProfile": {
           "computerName": "[concat(parameters('vmName'), copyIndex(1))]",
